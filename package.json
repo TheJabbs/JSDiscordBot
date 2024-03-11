@@ -1,0 +1,29 @@
+{
+  "name": "p_bot",
+  "version": "1.0.0",
+  "description": "Auto-Purge Discord Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "test": "npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paraformal/AutoPurgeBot.git"
+  },
+  "author": "Paraformaldead#7571",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Paraformal/AutoPurgeBot/issues"
+  },
+  "homepage": "https://github.com/Paraformal/AutoPurgeBot#readme",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "fs": "^0.0.1-security",
+    "ms": "^2.1.3",
+    "nodemon": "^3.0.2",
+    "path": "^0.12.7"
+  }
+}
